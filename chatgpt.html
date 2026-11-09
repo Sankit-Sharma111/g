@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A small page acknowledging the use of ChatGPT during its creation.">
+  <title>Made with ChatGPT</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      color: #eef2ff;
+      background: radial-gradient(circle at top, #243b68 0, #101827 48%, #080d17 100%);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      width: min(100%, 620px);
+      padding: clamp(28px, 6vw, 52px);
+      text-align: center;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 24px;
+      background: rgba(255,255,255,.07);
+      box-shadow: 0 24px 80px rgba(0,0,0,.35);
+    }
+    .mark {
+      width: 76px;
+      height: 76px;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 24px;
+      border-radius: 22px;
+      color: #fff;
+      background: linear-gradient(135deg, #10a37f, #087b68);
+      font-size: 38px;
+      font-weight: 700;
+    }
+    .eyebrow {
+      margin: 0 0 12px;
+      color: #7ee7c4;
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 0 0 16px; font-size: clamp(2rem, 6vw, 3.2rem); }
+    p { margin: 0 auto; max-width: 46ch; color: #c4cde0; line-height: 1.75; }
+    .credit {
+      margin-top: 28px;
+      padding: 14px 18px;
+      border-radius: 14px;
+      color: #d1fae5;
+      background: rgba(16,163,127,.13);
+      border: 1px solid rgba(126,231,196,.22);
+      font-weight: 600;
+    }
+    footer { margin-top: 28px; color: #8996ad; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">✦</div>
+    <p class="eyebrow">Project note</p>
+    <h1>Created with help from ChatGPT</h1>
+    <p>
+      This HTML page was written with assistance from ChatGPT, an AI assistant
+      created by OpenAI. The idea and final use of this page belong to the
+      repository owner.
+    </p>
+    <div class="credit">AI assistance acknowledged · Human reviewed</div>
+    <footer>Thanks for checking out this project.</footer>
+  </main>
+</body>
+</html>
